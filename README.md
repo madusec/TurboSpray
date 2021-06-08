@@ -2,6 +2,8 @@
 
 TurboSpray, a complete toolkit to make password spraying attacks against standard, basicauth, adfs, autodiscover & o365 portals a lot quicker.
 
+![TurboSpray](https://user-images.githubusercontent.com/77905202/121153815-aebfbf80-c846-11eb-97d1-ca00425c4e11.png)
+
 ## Tools
 
 #### Pwndb.py
