@@ -1,0 +1,13 @@
+h8mail
+requests 
+argparse 
+pandas
+bs4
+lxml
+selenium
+helium
+fake_useragent
+termcolor
+stem
+pyfiglet
+datetime
