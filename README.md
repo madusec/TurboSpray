@@ -34,42 +34,42 @@ A sprayer written to make password spraying attacks against standard, basicauth,
 # Acknowledgments
 
 #### Leaked Credentials Finder | Code/References
-[pwndb](https://github.com/davidtavarez/pwndb)
+[davidtavarez - pwndb](https://github.com/davidtavarez/pwndb)
 
-[khast3x](https://github.com/khast3x/h8mail)
+[khast3x - h8mail](https://github.com/khast3x/h8mail)
 
 #### IP Rotation | Code/References
-[Und3rf10w](https://github.com/Und3rf10w/kali-anonsurf)
+[Und3rf10w - kali-anonsurf](https://github.com/Und3rf10w/kali-anonsurf)
 
-[Abhishek_menon](https://medium.com/@abhishek_menon/anonymous-web-crawling-in-10-minutes-edff782decdc)
+[Abhishek_menon - IP Rotation](https://medium.com/@abhishek_menon/anonymous-web-crawling-in-10-minutes-edff782decdc)
 
 #### Passwords | Code/References
-[stealthsploit](https://github.com/stealthsploit/Optimised-hashcat-Rule)
+[stealthsploit - Optimised-hashcat-Rule](https://github.com/stealthsploit/Optimised-hashcat-Rule)
 
 #### Usernames | Scraping | Code/References
-[m8r0wn](https://github.com/m8r0wn/CrossLinked)
+[m8r0wn - CrossLinked](https://github.com/m8r0wn/CrossLinked)
 
-[0xZDH](https://github.com/0xZDH/BridgeKeeper)
+[0xZDH - BridgeKeeper](https://github.com/0xZDH/BridgeKeeper)
 
-[byt3bl33d3r](https://github.com/byt3bl33d3r/SprayingToolkit)
+[byt3bl33d3r - SprayingToolkit](https://github.com/byt3bl33d3r/SprayingToolkit)
 
 #### Usernames | o365 Enum | Code/References
-[gremwell](https://github.com/gremwell/o365enum)
+[gremwell - o365enum](https://github.com/gremwell/o365enum)
 
 #### Sprayer | Autodiscover & ADFS | Code/References
-[ricardojoserf](https://github.com/ricardojoserf/adfsbrute)
+[ricardojoserf - adfsbrute](https://github.com/ricardojoserf/adfsbrute)
 
-[0xZDH](https://github.com/0xZDH/o365spray)
+[0xZDH - o365spray](https://github.com/0xZDH/o365spray)
 
-[xFreed0m](https://github.com/xFreed0m/ADFSpray)
+[xFreed0m - ADFSpray](https://github.com/xFreed0m/ADFSpray)
 
 #### Sprayer | BasicAuth | Code/References
-[xFreed0m](https://github.com/xFreed0m/ADFSpray)
+[xFreed0m - ADFSpray](https://github.com/xFreed0m/ADFSpray)
 
 #### Sprayer | AADSTS Error Codes | Code/References
-[dafthack](https://github.com/dafthack/MSOLSpray)
+[dafthack - MSOLSpray](https://github.com/dafthack/MSOLSpray)
 
-[MartinIngesen](https://github.com/MartinIngesen/MSOLSpray)
+[MartinIngesen - MSOLSpray](https://github.com/MartinIngesen/MSOLSpray)
 
 #### Other Code References
-[Greenwolf](https://github.com/Greenwolf/Spray)
+[Greenwolf - Spray](https://github.com/Greenwolf/Spray)
