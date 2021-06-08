@@ -1,0 +1,20 @@
+#!/usr/bin/bash
+
+echo ""
+echo "Setting up new Tor parameters"
+echo ""
+
+# Stop Tor service on Linux
+kill $(pidof tor)
+
+# Add control port to the Tor config file
+echo "ControlPort 9051" >> /etc/tor/torrc
+
+# Add hashed control password to the Tor config file
+echo HashedControlPassword $(tor --hash-password "tor" | tail -n 1) >> /etc/tor/torrc
+
+# Show the last 2 lines
+tail -n 2 /etc/tor/torrc
+
+# Start Tor service on Linux
+sudo service tor start
