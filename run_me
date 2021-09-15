@@ -40,8 +40,13 @@ clear
 
 echo "Installing Chrome Driver..."
 echo ""
-wget https://chromedriver.storage.googleapis.com/90.0.4430.24/chromedriver_linux64.zip
-unzip chromedriver_linux64.zip
+sudo apt-get install unzip &&
+a=$(uname -m) &&
+wget -O /tmp/chromedriver/LATEST_RELEASE http://chromedriver.storage.googleapis.com/LATEST_RELEASE &&
+if [ $a == i686 ]; then b=32; elif [ $a == x86_64 ]; then b=64; fi &&
+latest=$(cat /tmp/chromedriver/LATEST_RELEASE) &&
+wget 'http://chromedriver.storage.googleapis.com/'$latest'/chromedriver_linux'$b'.zip'
+unzip chromedriver*.zip 
 rm *.zip
 chmod +x chromedriver
 mv chromedriver core/
